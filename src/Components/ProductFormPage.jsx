@@ -1,4 +1,4 @@
-import { useParams, useLocation } from "react-router";
+import { useParams, useLocation } from "react-router-dom";
 import Main from "../layouts/main";
 import FormProduct from "./FormProduct";
 

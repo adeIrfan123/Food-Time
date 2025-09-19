@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import DynamicHeader from "./DynamicHeader";
-import { Link, useLocation, useNavigate, useParams } from "react-router";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import axiosInstance from "../Api/axiosInstance";
 
 const FormAdminAccount = () => {

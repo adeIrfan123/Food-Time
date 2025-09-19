@@ -1,4 +1,4 @@
-import { Navigate, useLocation } from "react-router";
+import { Navigate, useLocation } from "react-router-dom";
 
 export const AdminPrivateRoute = ({ element }) => {
   const token = localStorage.getItem("admin_token");

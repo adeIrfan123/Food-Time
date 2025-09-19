@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import axiosInstance from "../Api/axiosInstance";
 
 const FormProduct = ({ isAdd, id }) => {
@@ -66,19 +66,14 @@ const FormProduct = ({ isAdd, id }) => {
         data.append("image", formData.image);
       }
 
-      let response;
       if (isAdd) {
-        response = await axiosInstance.post("/admin/product", data, {
+        await axiosInstance.post("/admin/product", data, {
           headers: { "Content-Type": "multipart/form-data" },
         });
       } else {
-        response = await axiosInstance.post(
-          `/admin/product/${id}?_method=PUT`,
-          data,
-          {
-            headers: { "Content-Type": "multipart/form-data" },
-          }
-        );
+        await axiosInstance.post(`/admin/product/${id}?_method=PUT`, data, {
+          headers: { "Content-Type": "multipart/form-data" },
+        });
       }
       setErrorMessages({});
       navigate("/admin/produk");

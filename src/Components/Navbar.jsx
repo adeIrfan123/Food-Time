@@ -1,7 +1,7 @@
 import FeatherIcon from "./FeatherIcons";
 import Search from "../Components/Search";
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ searchValue, onChange }) => {
   const [showSearch, setShowSearch] = useState(false);

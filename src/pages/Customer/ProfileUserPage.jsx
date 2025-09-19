@@ -4,7 +4,7 @@ import Navbar from "../../Components/Navbar";
 import userAccount from "../../Api/Customer/userAccount";
 import editProfile from "../../Api/Customer/editProfile";
 import orderHistory from "../../Api/Customer/ordersHistory";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import logout from "../../Api/Auth/logout";
 
 const ProfileUserPage = () => {
