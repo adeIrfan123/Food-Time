@@ -1,5 +1,5 @@
 import FormAdminAccount from "../../Components/FormAdminAccount";
-import Main from "../../Layouts/main";
+import Main from "../../layouts/main";
 
 const EditAdminAccountPage = () => {
   return (

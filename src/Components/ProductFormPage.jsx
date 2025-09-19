@@ -1,5 +1,5 @@
 import { useParams, useLocation } from "react-router";
-import Main from "../Layouts/main";
+import Main from "../layouts/main";
 import FormProduct from "./FormProduct";
 
 const ProductFormPage = () => {

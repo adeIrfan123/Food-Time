@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import DynamicHeader from "../../Components/DynamicHeader";
-import Main from "../../Layouts/main";
+import Main from "../../layouts/main";
 import Search from "../../Components/Search"; // Asumsikan kamu punya komponen ini
 import { userAccounts } from "../../Api/Admin/userAccount";
 
