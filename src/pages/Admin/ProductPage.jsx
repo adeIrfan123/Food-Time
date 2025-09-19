@@ -4,7 +4,7 @@ import axiosInstance from "../../Api/axiosInstance";
 import ButtonAdd from "../../Components/ButtonAdd";
 import DynamicHeader from "../../Components/DynamicHeader";
 import Search from "../../Components/Search";
-import Main from "../../layouts/Main.jsx";
+import Main from "../../layouts/Main";
 
 const ProductPage = () => {
   const [loading, setLoading] = useState(false);
