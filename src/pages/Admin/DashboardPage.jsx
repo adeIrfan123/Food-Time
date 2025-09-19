@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Main from "../../layouts/main";
+import Main from "../../layouts/Main";
 import DynamicHeader from "../../Components/DynamicHeader";
 import Search from "../../Components/Search";
 import axiosInstance from "../../Api/axiosInstance";

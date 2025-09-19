@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Main from "../../layouts/main";
+import Main from "../../layouts/Main";
 import FormProduct from "../../Components/FormProduct";
 
 const AddProductPage = () => {

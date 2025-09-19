@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DynamicHeader from "../../Components/DynamicHeader";
 import Search from "../../Components/Search";
-import Main from "../../layouts/main";
+import Main from "../../layouts/Main";
 import axiosInstance from "../../Api/axiosInstance";
 
 const LaporanPage = () => {

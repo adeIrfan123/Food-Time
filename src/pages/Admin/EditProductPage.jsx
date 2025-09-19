@@ -1,5 +1,5 @@
 import FormProduct from "../../Components/FormProduct";
-import Main from "../../layouts/main";
+import Main from "../../layouts/Main";
 
 const EditProductPage = () => {
   return (

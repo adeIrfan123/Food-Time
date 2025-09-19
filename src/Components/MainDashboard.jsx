@@ -1,4 +1,4 @@
-import Main from "../layouts/main";
+import Main from "../layouts/Main";
 
 const MainDashboard = () => {
   return (

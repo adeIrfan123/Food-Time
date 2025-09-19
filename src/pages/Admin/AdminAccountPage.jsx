@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // fix: react-router-dom
 import ButtonAdd from "../../Components/ButtonAdd";
 import DynamicHeader from "../../Components/DynamicHeader";
 import Search from "../../Components/Search";
-import Main from "../../layouts/main";
+import Main from "../../layouts/Main";
 import axiosInstance from "../../Api/axiosInstance";
 
 const AdminAccountPage = () => {
